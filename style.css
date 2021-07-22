@@ -1,0 +1,229 @@
+body {
+    margin: 0;
+    padding: 0;
+    background: black;
+    height: 100%;
+    color: white;
+}
+
+.nav {
+  list-style-type: none;
+  margin: 0;
+  width: 25%;
+  background-color: #000000;
+  position: fixed;
+  overflow: auto;
+}
+
+.navMenu {
+  display: block;
+  color: rgb(255, 255, 255);
+  padding: 8px 16px;
+  text-decoration: none;
+  font-family: "Montserrat";
+  padding: 20px 0;
+}
+
+a.nav_menu:hover {
+  background-color: #555;
+  color: white;
+}
+
+.navMenuDiv {
+    margin-top: 20%;
+    margin-left: 30%;
+    text-align: left;
+}
+
+ul {
+    list-style-type: none;
+}
+
+.avatarAbout {
+  display: block;
+  width: 350px;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 5%;
+
+}
+
+.templateHome {
+  margin-left: 20%;
+  display: flex;
+  height: 100%;
+  padding: 10vh 10vw;
+  background-color: black;
+  margin-top: 8%;
+}
+
+.namaHome {
+  text-transform: uppercase;
+  font-family: "Montserrat";
+  margin-left: 10%;
+  font-size: 50;
+}
+
+.kontenHome {
+  font-family: "Montserrat";
+  justify-content: center;
+  text-align: justify;
+  margin-left: 10%; 
+  color: rgb(187, 187, 187);
+  font-style: italic;
+  margin-top: 0;
+}
+
+.avatarHome {
+  margin-left: 10%;
+  margin-top: 10%;
+  border-radius: 100%;
+  width: 300px;
+}
+
+.templateAbout {
+  margin-left: 20%;
+  display:flex;
+  padding: 10vh 10vw;
+  background-color: black;
+}
+
+.gridAbout{
+  display: grid;
+  width: 100%;
+  grid-template-columns: 50% 1fr;
+  margin-top: 5%;
+}
+
+.kontenNameAbout{
+  font-family: "Roboto";
+  text-align: left;
+  color: white;
+  font-weight: bold;
+}
+
+.kontenAboutLeft {
+  font-family: "Montserrat";
+  justify-content: left;
+  color: rgb(94, 55, 55);
+}
+
+.kontenAboutLeftParagraf{
+  font-size: small;
+  font-style: italic;
+  color: rgb(187, 187, 187);
+  font-weight: bold;
+  line-height: 2;
+  letter-spacing: 1.5;
+  font-family: Arial, Helvetica, sans-serif;
+  margin-bottom: 20px;
+}
+
+.kontenTable{
+  font-family: "Montserrat";
+  margin-left: 10%;
+}
+
+td {
+  text-align: left;
+  padding: 10px;
+  font-size: small;
+  color: rgb(187, 187, 187);
+}
+
+.judulTable {
+  font-weight: bold;
+  color: white;
+}
+
+.templatePorftolio {
+  margin-left: 20%;
+  display:flex;
+  padding: 10vh 10vw;
+  background-color: black;
+}
+
+.kontenNamaPorftolio{
+  font-family: "Montserrat";
+  font-weight: bold;
+}
+
+.gridPortfolio{
+  display: grid;
+  width: 100%;
+  grid-template-columns: 50% 1fr;
+}
+
+.fotoPorftolio{
+  display: block;
+  width: 350px;
+  display: block;
+  padding: 10;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.footerTest{
+  position: fixed;
+  left: 0;
+  bottom: 0;
+  width: 30%;
+  color: white;
+  text-align: center;
+  
+}
+
+.footerTestParagraf{
+  font-family: "Montserrat";
+  font-size: small;
+  margin-bottom: 20;
+  text-align: center;
+}
+
+.buttonContact{
+  width: 80%;
+  background-color: #4CAF50;
+  color: white;
+  padding: 14px 20px;
+  margin: 8px 0;
+  border: none;
+  border-radius: 4px;
+}
+
+.ulContact{
+  padding: 0;
+}
+
+.liMessage{
+  height: 80px;
+  text-align: top;
+}
+
+input{
+  width: 300%;
+  padding: 12px 20px;
+  margin: 8px 0;
+  display: inline-block;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+}
+
+.buttonReadMore{
+  width: 28%;
+  padding: 14px 20px;
+  margin: 8px 0;
+  border: none;
+  border-radius: 4px;
+}
+
+.logoHome{
+  width: 25px;
+  margin-right: 10;
+}
+
+.logoHomeDiv{
+  margin-left: 10%;
+  margin-top: 10%;
+  text-align: left;
+}
