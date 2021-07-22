@@ -147,7 +147,7 @@ td {
   display:flex;
   padding: 10vh 10vw;
   background-color: black;
-  height: 150%;
+  height: auto;
 }
 
 .kontenNamaPorftolio{
