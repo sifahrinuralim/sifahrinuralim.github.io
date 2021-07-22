@@ -157,16 +157,15 @@ td {
 
 .gridPortfolio{
   display: grid;
-  width: 100%;
-  grid-template-columns: 50% 1fr;
+  grid-template-columns: auto auto auto auto;
+  grid-gap: 10px;
+  padding: 10px;
 }
 
 .fotoPorftolio{
-  display: flex;
-  width: 75%;
-  display: block;
-  padding: 10;
-  margin: 10;
+  width: 100%;
+  padding: 20px 0;
+  text-align: center;
 }
 
 .footerTest{
